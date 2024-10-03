@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Apple IPhone 11",
+        "price": 22000,
+        "image": "v-a-tao-OxvlDO8RwKg-unsplash.jpg",
+        "description": "A powerful smartphone from Apple that combines an advanced processor, a large display, and an impressive camera. The iPhone 11 delivers an unparalleled user experience thanks to its stylish design, high performance, and innovative technologies."
+    },
+    {
+        "title": "Google Pixel 4",
+        "price": 10000,
+        "image": "anh-nhat-Ee-EjUVs__w-unsplash.jpg",
+        "description": "A next-generation smartphone from Google that offers advanced artificial intelligence features and a powerful camera. The Google Pixel 4 impresses not only with its stylish design but also with its ability to automatically adapt to the user's needs, providing a personalized experience."
+    },
+    {
+        "title": "Samsung Galaxy S21 Ultra",
+        "price": 29519,
+        "image": "anh-nhat-uCqMa_s-JDg-unsplash.jpg",
+        "description": "Samsung's flagship smartphone that combines elegant design with powerful specifications. The Galaxy S21 Ultra is equipped with a 6.8-inch Dynamic AMOLED 2X display with a high resolution of 3200x1440 pixels, providing incredible brightness and clarity."
+    },
+    {
+        "title": "Headphones",
+        "description": "High-quality over-ear headphones with noise cancellation.",
+        "price": 250,
+        "image": "headphones.png"
+    },
+    {
+        "title": "Microphone",
+        "description": "Professional condenser microphone for studio recording.",
+        "price": 150,
+        "image": "microphone.png"
+    },
+    {
+        "title": "Keyboard",
+        "price": 300,
+        "image": "keyboard.png",
+        "description": "A modern keyboard that offers convenience in data entry and quick access to essential functions. Ideal for work, study, and entertainment, this keyboard combines a stylish design with high performance."
+    }
+]
