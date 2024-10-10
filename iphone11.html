@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple iPhone 11</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-details {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .product-title {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .product-price {
+            font-size: 1.5rem;
+            color: #28a745; /* Bootstrap's success color */
+            margin-bottom: 15px;
+        }
+        .product-description {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+        .btn-back {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="product-details">
+        <h1 class="product-title">Apple iPhone 11</h1>
+        <img src="img/v-a-tao-OxvlDO8RwKg-unsplash.jpg" width="300px" height="300px" alt="Apple iPhone 11" class="product-image">
+        <h2 class="product-price">Price: $22,000</h2>
+        <p class="product-description">
+            A powerful smartphone from Apple that combines an advanced processor, a large display, and an impressive camera. 
+            The iPhone 11 delivers an unparalleled user experience thanks to its stylish design, high performance, and innovative technologies.
+        </p>
+        <button type="button" class="btn btn-success cart-btn" data-product='${productData}' style="display: flex; align-items: center;">
+            <svg class="bell" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 19a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                <path d="M12.5 17h-6.5v-14h-2" />
+                <path d="M6 5l14 1l-.86 6.017m-2.64 .983h-10.5" />
+                <path d="M16 19h6" />
+                <path d="M19 16v6" />
+            </svg>
+            Купити
+        </button>
+        <a href="index.html" class="btn btn-primary btn-back">Back to Products</a>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
